@@ -17,7 +17,7 @@ while True:
 	# initialize the counter
 	counter = 0
 
-	print("I'm thinking of a number between 1 and 100, you have 10 tries to guess it")
+	print("\nI'm thinking of a number between 1 and 100, you have 10 tries to guess it")
 
 	while counter < 10:
 		guess = int(input("Try to guess\n"))
