@@ -33,13 +33,13 @@ while True:
 
 	if guess == number:
 		# the player won
-		print("Congratulations! You won in " + str(counter) + " tries.")
+		print("\nCongratulations! You won in " + str(counter) + " tries.")
 	else:
 		# the player lost
-		print("You lost, I was thinking of " + str(number))
+		print("\nYou lost, I was thinking of " + str(number))
 
 	# ask to play again
-	if input("Do you wanna play again ? (y/n)\n") != "y":
+	if input("\nDo you wanna play again ? (y/n)\n") != "y":
 		break
 
 print("\nThanks for playing!\n")
